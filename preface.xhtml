@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops"
+	xmlns:m="http://www.w3.org/1998/Math/MathML">
+	<head>
+		<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+		<title>preface</title>
+	</head>
+	<body>
+		<div>
+			<div id="header" class="chapter">
+				<h1 id="preface">Preface</h1>
+			</div>
+			<p><span class="dropcap"> W</span>riting an ebook by coding (and by avoiding the use of
+				a third party conversion software) can be cumbersome if one is new to HTML, XML,
+				MathML, etc. After patiently holding on to my <em>do-it-yourself</em> courage, I
+				succeeded in writing six e-books by mere coding (in both ePub 2 and ePub 3 formats).
+				Thereafter, I considered it was a good idea to write this template which will speed
+				up the writing process of any author in re-flowable ePub 3 format.</p>
+			<p>The major objective is to distribute the template without DRM (Digital Right
+				Management) so that interested writers can easily download and re-use the eBook. To
+				assist the the author or writer to easily utilize the template, it is made up of the
+				following 10 <em>XHTML</em> files (in addition to the three basic files&#8212;
+				'mymetype', 'toc.ncx', 'container.xml' and content.opf): </p>
+
+			<ol>
+				<li>Cover page&#8212; (<i>front-cover.xhtml</i>)</li>
+				<li>Title page&#8212; (<i>titlepage.xhtml</i>)</li>
+				<li>Content Summary&#8212; (<i>content_summary.xhtml</i>)</li>
+				<li>Navigation&#8212; (<i>toc.xhtml</i>)</li>
+				<li>Preface&#8212; (<i>preface.xhtml</i>)</li>
+				<li>Imprint&#8212; (<i>imprint.xhtml</i>)</li>
+				<li>Chapter I&#8212; (<i>chapter1.xhtml</i>)</li>
+				<li>Chapter II&#8212; (<i>chapter2.xhtml</i>)</li>
+				<li>Chapter III&#8212; (<i>chapter3.xhtml</i>)</li>
+				<li>Chapter IV&#8212; (<i>chapter4.xhtml</i>)</li>
+			</ol>
+			<p>After unzipping the ePub, you will obviously see these XHTML files. "Lorem ipsum" is
+				used as text in most of the paragraphs which is meant to reflect the book as a
+				template. The writer can duplicate any of the XHTML files, rename them for the sake
+				of additional chapters, references, etc. The trick is that the <i>opf</i>,
+					<i>ncx</i> and the <i>toc</i> files must be updated accordingly. </p>
+			<p>The key is simple (see the example below): After opening each XHTML file on a text
+				editor, replace the headers and/or titles with your own title headings. Remove
+				headings you do not require and add extra headings as desired. Perhaps, an author
+				prefers to use the term <em>Introduction</em> instead of <em>Preface</em>. You may
+				change this name in the preface.xhtml file while still retaining the file name as
+					<i>preface.xhtml</i> file. </p>
+			<p>Another crucial step is that when you change a header, the &#8216;id&#8217; must be
+				changed as well. If you want the 'id' to be consistent with the header. This means
+				you change the 'id' in both the content document and the navigation document
+					(<i>toc.xhtml</i>)</p>
+			<h3 id="jason">Mr Jason Example</h3>
+			<div class="chapter">
+				<p>Mr. Jason has already altered the opf file by inserting the book title (Fitness
+					Basics), the ISBN, the publishing date, the book description, etc. He is now
+					focusing on the first paragraph of the first chapter of his book, 'Fitness
+					Basics' written in Microsoft Word, which should contain a 15-second video at the
+					end of the first paragraph. He does the following to the template:</p>
+				<ol>
+					<li>Changes the first chapter title and replaces the paragraph text (Lorem
+						Ipsum&#8230;) with the corresponding paragraph text</li>
+					<li>Changes the heading 'This is a video title' to 'Your First Exercise'</li>
+					<li>Uploads the desired video file to the 'video' folder and use the actual
+						video file name within the video tag elements</li>
+					<li>Goes to the 'content.opf' text to change the video file name as well as the
+						'id'</li>
+				</ol>
+			</div>
+			<p>Chapter I includes the video and audio tags. Chapter II includes a mathematical
+				equation using MathML and Chapter III includes the ePub 3 versatile Figure element.
+				Finally, Chapter IV is an empty chapter that can be used by the author. Chapters can
+				be added or deleted provided changes are made in all the relevant files&#8212; the
+				opf file, the toc file, e.t.c. The CSS (stylesheet) used here is by all means not
+				the ultimate choice for every writer. It can be modified. The author can make any
+				changes as desired.</p>
+			<h3 id="caution"><u>The Caution Term</u></h3>
+			<p><i>Subtiles termed <b>Caution</b> are added within two of the four chapters and can be easily
+					deleted by the author when the ePub is cracked-open. It is meant to point out
+					some extra specifics to assist the author. As an example, it is noted in the
+					video embedding section (Chapter1) that two different taggings were used for
+					this publication. - one ePub file with M4V video format channelled to Apple
+					iBooks and another with an MP4 file commonly used on several e-readers and as a
+					requirement by distributors and retailers. The later can be easily uploaded to
+					channels like Kindle Direct Publishing (KDP). Audio must be encoded using M4A
+					file format for a target towards Apple iBooks store while the popular MP3 suits
+					many other e-readers</i>.</p>
+		</div>
+	</body>
+</html>

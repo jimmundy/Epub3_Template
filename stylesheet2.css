@@ -1,0 +1,75 @@
+@charset "utf-8";
+@namespace epub "http://www.idpf.org/2007/ops";
+/* JimArts Publishing, 2015;  */
+/*===Reset code to prevent cross-reader strangeness===*/
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del,
+dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub,
+sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form,
+label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+ }
+ td{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    }
+
+/* end reset */
+/*===General presentation===*/
+body{
+   font-family:georgia, helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    font-size:90%;
+}
+
+
+p.indent{
+    text-indent:1.5em;
+
+}
+
+
+
+p{
+    text-align:left;
+}
+
+
+p{
+   
+    margin-top:15px;
+    margin-bottom:0em;
+
+}
+
+
+p.title1{
+    font-size:180%;
+    text-align:center;
+    font-family:georgia, helvetica, sans-serif;
+    text-shadow:2px 2px #B8B8B8;
+}
+
+p.title1b{
+    font-size:125%;
+    text-align:center;
+    font-family:georgia, helvetica, sans-serif;
+    text-shadow:1px 1px #B8B8B8;
+}
+
+p.title2{
+    font-size:120%;
+    text-align:center;
+    font-family:georgia, helvetica, sans-serif;
+    
+}
+
+
+
+

@@ -1,0 +1,298 @@
+@charset "utf-8";
+@namespace m "http://www.w3org/1998/Math/MathMl";
+/* JimArts Publishing, 2015;  */
+/*===Reset code to prevent cross-reader strange displays===*/
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th,
+td{
+}
+td{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* end reset */
+
+
+
+
+
+/*=====================================================*/
+
+/*===GENERAL PRESENTATION===*/
+body{
+    font-family:georgia, helvetica, sans-serif;
+    font-size:100%;
+    font-weight:normal;
+    margin-top:2em;
+    margin-bottom:2em;
+    margin-left:6em;
+    margin-right:2em;
+    background:white;
+    text-align:justify;
+}
+
+
+
+/*  -----------------edit-------------------------------------------*/
+
+
+
+/* --------------------paragraphs------------------------------------- */
+
+
+
+p{
+    /*text-indent:1em;*/
+    margin-top:15px;
+    margin-bottom:0em;
+
+}
+
+p.indent{
+    text-indent:1.5em;
+
+}
+
+span.dropcap{
+    font-size: 600%;
+    float:left;
+    line-height:0.8em;
+    padding: 0 2px 0 0;
+    color:#7a0000;   
+    font-family:georgia, helvetica, sans-serif;
+    font-weight:normal;
+    position: relative;
+    left: -3px;    
+}
+
+
+
+/* --------------------Headers: h1...h4------------------------------------- */
+h1{
+    border-bottom:1px solid lightgray;
+    text-align:center;
+    font-weight:normal;
+    font-family:georgia, helvetica, sans-serif;
+    font-size:1.5em;
+    margin-top:20px !important;
+    margin-bottom:15px;
+}
+
+/* --------------------pagebreak------------------------------------- */
+
+#header h1{
+    font-size:1.4em;
+    font-family:georgia, helvetica, sans-serif;
+    font-weight:bold;
+}
+
+h2{
+    font-size:1.2em;
+    font-weight:bold;
+    font-family:georgia, helvetica, sans-serif;
+    color:#7a0000;
+    margin:40px 0 0 0;
+}
+
+
+h3{
+    font-size:1.1em;
+    font-weight:bold;
+    font-family:georgia, helvetica, sans-serif;
+    margin:40px 0 0 0;
+}
+
+
+h4
+{
+    text-indent:0;
+    font-size:1em;
+    font-weight:bold;
+    font-family:georgia, helvetica, sans-serif;
+    margin:40px 0 0 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+
+    page-break-after:avoid;
+    page-break-inside:avoid;
+}
+
+
+/* --------------------Figures and Images------------------------------------- */
+
+div.enclose{
+    padding:5px;
+    /*box-shadow:2px 2px 3px gray;*/
+    margin-top:0.3em;
+    text-align:center;
+    page-break-inside:avoid;
+    max-height:90%;
+    max-width:90%;
+}
+
+
+div.enclose2{
+    padding:5px;
+    box-shadow:2px 2px 3px gray;
+    margin-top:0.3em;
+    text-align:center;
+    page-break-inside:avoid;
+    max-height:90%;
+    max-width:90%;
+}
+
+
+p.caption{
+    text-align:center;
+    font-weight:bold;
+    font-family:monospace;
+    width:90%;
+}
+
+img.fullpage{
+    max-height:100%;
+    max-width:100%;
+    margin:0;
+    padding:0;
+    box-shadow:2px 2px 3px gray;
+    text-align:center;
+}
+
+
+
+/* --------------------links------------------------------------- */
+a:link{
+    color:black;
+} /* unvisited link */
+a:visited{
+    color:black;
+} /* visited link */
+a:hover{
+    color:black;
+} /* mouse over link */
+a:active{
+    color:black;
+} /* selected link */
+
+a:hover{
+    /*color:#000000;*/
+    text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+q{
+    font-style:italic;
+}
+
+/* --------------------toc------------------------------------- */
+#toc ol{
+    list-style-type:none;
+}
+
+/* Never display elements with the hidden attribute */
+*[hidden]{
+    display:none;
+}
+
+
+/* --------------------Tips-------- Top right bot  left----------------------------- */
+blockquote.style1{
+    font-size:90%;
+    font-style:normal;
+    font-family:georgia, helvetica, sans-serif;
+    border:1px solid #6cafd0;
+    border-radius:5px;
+    page-break-inside:avoid;
+    padding:4px 5px 4px 5px;
+    margin-right:5%;
+    margin-left:5%;
+    margin-top:5%;
+    margin-bottom:5%;
+
+
+}
+
+
+
+
+
+/* --------------------Sample Questions------------------------------------- */
+
+
+/* --------------------Chapter Questions------------------------------------- */
+
+
+
+
+
+
+/* --------------------list styles------------------------------------- */
+ul.a{
+    list-style-type:lower-alpha;
+}
+
+/* --------------------ol------------------------------------- */
+
+ol{
+    list-style-type:decimal;
+    margin-top:8px !important;
+    margin-bottom:8px !important;
+    margin-left:20px !important;
+    padding-left:25px !important;
+}
+
+ol ol{
+    list-style-type:lower-alpha;
+}
+
+ul{
+    list-style-type:none;
+    margin-top:8px !important;
+    margin-bottom:8px !important;
+    margin-left:5px !important;
+    padding-left:20px !important;
+}
+
+ul ul{
+    list-style-type:circle;
+    padding-left:0 !important;
+    margin-left:0 !important;
+}
+
+/* --------------------page break------------------------------------- */
+/*div.chapter{
+    page-break-after:right;
+}*/
+
+div.chapter{
+    page-break-after:avoid;
+}
+
+/* --------------------toc fonts------------------------------------- */
+div.lessfonts{
+    font-size:90%;
+}
+li.none {list-style-type: none;}
+ol.none {list-style-type: none;}
+div.chapter{
+    page-break-after:avoid;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/"
+    version="3.0" xml:lang="en" unique-identifier="bookid">
+
+    <metadata>
+
+        <dc:title id="t1">EPUB 3 Template For Authors</dc:title>
+        <dc:identifier id="bookid">ISBN9788299890618</dc:identifier>
+        <dc:creator id="creator">Mundy Obilor Jim </dc:creator>
+        <dc:language id="pub-language">en</dc:language>
+        <dc:description id="category">Info Tech </dc:description>
+        <dc:date>2016-02-12</dc:date>
+        <dc:publisher>Jimarts</dc:publisher>
+        <dc:rights>Copyright © 2016 Mundy Obilor Jim</dc:rights>
+        <meta property="dcterms:modified">2014-02-12T22:17:24Z</meta>
+    </metadata>
+    <manifest>
+        <item id="htmltoc" properties="nav" media-type="application/xhtml+xml" href="toc.xhtml"/>
+        <item id="front_cover" href="front-cover.xhtml" media-type="application/xhtml+xml"/>
+        <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml"/>
+        <item id="content_summary" href="content_summary.xhtml" media-type="application/xhtml+xml"/>
+        <item id="imprint" href="imprint.xhtml" media-type="application/xhtml+xml"/>
+        <item id="preface" href="preface.xhtml" media-type="application/xhtml+xml"/>
+        <item id="chapter1" href="chapter1.xhtml" media-type="application/xhtml+xml"/>
+        <item id="chapter2" href="chapter2.xhtml" media-type="application/xhtml+xml"
+            properties="mathml"/>
+        <item id="chapter3" href="chapter3.xhtml" media-type="application/xhtml+xml"/>
+        <item id="chapter4" href="chapter4.xhtml" media-type="application/xhtml+xml"/>
+        <item id="bibliography" href="bibliography.xhtml" media-type="application/xhtml+xml"/>
+        <item id="style" href="stylesheet.css" media-type="text/css"/>
+        <item id="style2" href="stylesheet2.css" media-type="text/css"/>
+        <item id="img01" href="images/seabed.jpg" media-type="image/jpeg"/>
+        <item id="img02" href="images/jimarts.jpg" media-type="image/jpeg"/>
+        <item id="cover" href="images/cover.jpg" media-type="image/jpeg"/>
+        <item id="image_equation" href="images/Xccp.png" media-type="image/png"/>
+        <item id="video1" href="video_audio/prolog.m4v" media-type="video/mpeg4"/>
+        <item id="audio1" href="video_audio/prolog.mp3" media-type="audio/mp3"/>
+    </manifest>
+    <spine>
+        <itemref idref="front_cover"/>
+        <itemref idref="titlepage"/>
+        <itemref idref="imprint"/>
+        <itemref idref="content_summary"/>
+        <itemref idref="preface"/>
+        <itemref idref="chapter1"/>
+        <itemref idref="chapter2"/>
+        <itemref idref="chapter3"/>
+        <itemref idref="chapter4"/>
+        <itemref idref="bibliography"/>
+    </spine>
+</package>
